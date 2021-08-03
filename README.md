@@ -1,5 +1,16 @@
 # API Tech Demo
 
+This is a repo of Fletcher's recommended API setup.
+
+- FastAPI
+- Django ORM
+- PostgreSQL
+- Redis
+
+Feel free to download and mess around with this. Stuff in the `scripts` directory should make it easy to mess around with this locally.
+
+This repo was designed to run on GCP's Cloud Run. Deploying to Cloud Build is fairly straightforward, but not documented here.
+
 ## Pre-Setup
 
 1. Install [Cloud SDK](https://cloud.google.com/sdk/docs/quickstart)
