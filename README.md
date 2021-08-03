@@ -13,6 +13,8 @@ This repo was designed to run on GCP's Cloud Run. Deploying to Cloud Build is fa
 
 ## Pre-Setup
 
+The first two steps only apply if you're using this repo with GCP's Cloud Source Repositories.
+
 1. Install [Cloud SDK](https://cloud.google.com/sdk/docs/quickstart)
     - Install cloud-sql-proxy with `gcloud components install cloud_sql_proxy`
     - Login with `gcloud init`
@@ -25,7 +27,7 @@ This repo was designed to run on GCP's Cloud Run. Deploying to Cloud Build is fa
     - Enter the environment with `conda activate API-Tech-Demo`
     - In PyCharm, open the project and set the project interpreter
 
-## Requirements
+## Other Requirements
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
@@ -41,6 +43,7 @@ Various scripts are provided for you to use for common operations. These scripts
 - Starting your containers (`start_containers.sh`)
 - Stopping your containers (`stop_containers.sh`)
 - Running database migrations (`run_migrations.sh`)
+- Running tests (`test.sh`)
 
 While these scripts cover enough functionality to get started, you'll likely want to create your own scripts for automating any common operations. Feel free to ask @Fletcher Easton  for assistance with this, or if you want an opinion on how your script should look and/or operate.
 
