@@ -47,6 +47,9 @@ Various scripts are provided for you to use for common operations. These scripts
 
 While these scripts cover enough functionality to get started, you'll likely want to create your own scripts for automating any common operations. Feel free to ask @Fletcher Easton  for assistance with this, or if you want an opinion on how your script should look and/or operate.
 
+If you run the setup and start scripts, you can visit [localhost](http://127.0.0.1:8000/docs) to view the interactive docs.
+The container is set up in such a way that the code will hot-reload, any changes to the source code will restart the server.
+
 ### PyCharm Setup
 
 - Install the Pydantic plugin for PyCharm
