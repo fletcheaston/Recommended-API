@@ -54,4 +54,4 @@ The container is set up in such a way that the code will hot-reload, any changes
 
 - Install the Pydantic plugin for PyCharm
 - Enable Django Support (**Settings | Languages & Frameworks | Django**)
-    - Select `/api_tech_demo/app` as the project root
+    - Select `/api_tech_demo` as the project root
