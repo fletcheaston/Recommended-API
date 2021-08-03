@@ -20,7 +20,7 @@ The first two steps only apply if you're using this repo with GCP's Cloud Source
     - Login with `gcloud init`
     - Check your config with `gcloud config list`
 2. Set up the local repository
-    - Clone the repository with `gcloud source repos clone api_tech_demo --project=${project id}`
+    - Clone the repository with `gcloud source repos clone api_tech_demo --project=${COPY GCP PROJECT ID HERE}`
     - Enter the repository with `cd api_tech_demo`
 3. Set up virtual environment
     - Create the environment with `conda env create -f environment.yml`
